@@ -1,0 +1,34 @@
+Public class Main{
+
+	public staic void main(String []args){
+
+	System.out.println("enter blood pressure")
+	
+	Scanner scanME =new Scanner(System.in);
+
+	int inputNum = scanMe.nextInt();
+
+	if(inputNum <=120){
+
+	System.out.println("Normal")
+	}
+
+	if(inputNum > 12 || intputNum < 129)
+	{System.out.println("Elevated")}
+
+	if(inputNum > 130 || inputNum < 139)
+	{System.out.println("High Blood Pressure : Stage 1")
+	}
+
+	if(inputNum > 140 || inputNum < 180)
+
+	{System.out.println("High Blood Pressure : Stage 2")
+	
+
+	if(inputNum > 180){
+
+	System.out.println("Hypertensive crisis : Stage 3")}
+
+
+	}
+}
